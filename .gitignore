@@ -1,3 +1,4 @@
 data/train.bin
 data/decrypted_file/train/train_data_feeds.csv
 data/decrypted_file/train/train_data_ads.csv
+.gitignore
