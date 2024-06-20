@@ -1,2 +1,6 @@
-# ges24
-submission for 2024 GES x Trustworthy AI Lab hackathon
+# Trustworthy AI Lab x GES at UCLA Hackathon
+
+## Mercury Codes -- Animesh, Anirudh, Brandon, Eli
+
+### Aggregate Statistics for Original Data
+
