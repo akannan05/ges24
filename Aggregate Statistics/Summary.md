@@ -30,6 +30,12 @@
 
 - These plots show that there does not seem to be a noticeable difference in gender distribution among potential and non customers.
 
+### Variable Residence
+
+- We started by visualizing the distribution of residence provinces among potential and non potential customers. We approached this with two pie charts:
+
+
+
 
 
 
