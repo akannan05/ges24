@@ -42,6 +42,25 @@
 
 ![image](https://github.com/akannan05/ges24/assets/70667502/d9843944-41f7-4124-a6ce-930ff5f6d9a6)
 
+- These plots do not indicate any clear differences in distribution of residential provinces between potential and non potential customers.
+
+
+### Variable Content Preference
+
+- We started by visualizing the distributions of content preference among potential and non potential customers. We approached this task by creating two pie charts:
+
+![image](https://github.com/akannan05/ges24/assets/70667502/1e2d4cdd-412f-47c4-aed2-8d7713ff2f56)
+![image](https://github.com/akannan05/ges24/assets/70667502/d95fe603-f06e-498d-9bb0-d7b1ac587b3c)
+
+- We then created a grouped barplot to visualize the distribution differences more easily.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/c3adfc77-e29f-439c-aa14-f65540ffc7fc)
+
+- These plots show that potential customers seem to prefer content labeled 0 while non potential customers seem to prefer content labeled 1. Therefore, it may be wise to display more content labeled 0 as opposed to 1 in order to attract more customers.
+
+
+### Variable Device Series
+
 
 
 
