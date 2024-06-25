@@ -6,4 +6,7 @@
 
 - We started by visualizing the age distribution with two separate pie charts. One for potential customers, and one for non-potential customers.
 
-![screenshot](Potential Customer Age Distribution.png)
+![image](https://github.com/akannan05/ges24/assets/70667502/147f38d1-aaff-4660-977d-f24592536d56)
+![image](https://github.com/akannan05/ges24/assets/70667502/c1880480-0de6-415f-b22f-f481626d0879)
+
+
