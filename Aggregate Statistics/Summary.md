@@ -169,7 +169,7 @@
 ![image](https://github.com/akannan05/ges24/assets/70667502/622c3978-d57b-4b6d-bdaf-c0fbcc0f23c8)
 
 
-- The plots show no clear differences in distributions of ad day viewed among potential and non potential customers. We can see that most ads are viewed during the weekend (Friday-Sunday) with a majority being viewed on Friday.
+- The plots show no clear differences in distributions of ad day viewed among potential and non potential customers, except for the fact that potential customers tend to view feeds more on Wednesday compared to non-potential customers.
 
 
 
