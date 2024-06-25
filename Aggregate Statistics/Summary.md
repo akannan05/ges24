@@ -9,7 +9,7 @@
 ![image](https://github.com/akannan05/ges24/assets/70667502/147f38d1-aaff-4660-977d-f24592536d56)
 ![image](https://github.com/akannan05/ges24/assets/70667502/c1880480-0de6-415f-b22f-f481626d0879)
 
-- After this, we plotted a stacked barplot showing the distributions side by side for easy comparison.
+- After this, we plotted a grouped barplot showing the distributions side by side for easy comparison.
 
 ![image](https://github.com/akannan05/ges24/assets/70667502/d7d58b96-6734-4541-b2c7-e5fdac16125f)
 
@@ -24,7 +24,7 @@
 ![image](https://github.com/akannan05/ges24/assets/70667502/70d805f7-4da8-4bea-a392-72be4dd73ec9)
 
 
-- After this, we plotted a stacked barplot showing the distributions side by side for easy comparison.
+- After this, we plotted a grouped barplot showing the distributions side by side for easy comparison.
 
 ![image](https://github.com/akannan05/ges24/assets/70667502/9bf72895-b8f6-4108-9f8d-a82854422cb0)
 
@@ -33,6 +33,14 @@
 ### Variable Residence
 
 - We started by visualizing the distribution of residence provinces among potential and non potential customers. We approached this with two pie charts:
+
+![image](https://github.com/akannan05/ges24/assets/70667502/651caca2-faf7-432b-b628-9ca6847457ea)
+
+![image](https://github.com/akannan05/ges24/assets/70667502/209c7fca-c2a0-4dd9-a28a-c505e7b388bc)
+
+- After this, we plotted a grouped barplot to show the distributions side by side for seamless comparison!
+
+![image](https://github.com/akannan05/ges24/assets/70667502/d9843944-41f7-4124-a6ce-930ff5f6d9a6)
 
 
 
