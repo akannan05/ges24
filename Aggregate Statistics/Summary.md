@@ -6,4 +6,4 @@
 
 - We started by visualizing the age distribution with two separate pie charts. One for potential customers, and one for non-potential customers.
 
-![plot](Aggregate Statistics/Potential Customer Age Distribution.png)
+![screenshot](Potential Customer Age Distribution.png)
