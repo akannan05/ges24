@@ -128,11 +128,15 @@
 
 - We first created two pie charts to visualize the distribution of the hour at which feeds were viewed among potential and non potential customers.
 
+![image](https://github.com/akannan05/ges24/assets/70667502/c14c4843-ec11-4b05-9c81-e45aa045ad02)
+![image](https://github.com/akannan05/ges24/assets/70667502/9a08e77d-a40e-413a-b481-6117ee36fdf8)
+
 
 
 - We then used a grouped barplot to easily visualize the differences between the two distributions.
 
-![image](https://github.com/akannan05/ges24/assets/70667502/24c929ea-2e82-45a9-99a9-3ea47e6c68b4)
+![image](https://github.com/akannan05/ges24/assets/70667502/6161004c-b7b2-4662-8685-ecaa25ad6ffd)
+
 
 
 - These plots do not indicate any key differences in distributions of feed hour viewed among potential and non potential customers.
