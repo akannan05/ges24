@@ -1,4 +1,4 @@
-![image](https://github.com/akannan05/ges24/assets/70667502/94ce9b07-6fd3-4d8b-86bd-369624beb72f)# Aggregate Statistics and Data Visualizations
+# Aggregate Statistics and Data Visualizations
 
 ## Explore differences in variable distributions between Potential Customers (people who clicked on ads) and Non-Potential Customers (people who did not click on ads)
 
