@@ -65,7 +65,8 @@
 - We started by visualizing the distributions of device series among potential and non potential customers. We approached this task by creating two pie charts:
 
 ![image](https://github.com/akannan05/ges24/assets/70667502/46d3ad9e-ab64-4af3-942b-c2483e3b5c84)
-![image](https://github.com/akannan05/ges24/assets/70667502/c1c7719e-88b6-42ef-b939-307abfafda94)
+![image](https://github.com/akannan05/ges24/assets/70667502/91d9e0f7-ca52-4b0d-b70e-c5eaa9d5153f)
+
 
 - We then created a grouped barplot to visualize distribution differences more easily
 
