@@ -1,4 +1,4 @@
-# Aggregate Statistics and Data Visualizations
+![image](https://github.com/akannan05/ges24/assets/70667502/94ce9b07-6fd3-4d8b-86bd-369624beb72f)# Aggregate Statistics and Data Visualizations
 
 ## Explore differences in variable distributions between Potential Customers (people who clicked on ads) and Non-Potential Customers (people who did not click on ads)
 
@@ -77,17 +77,65 @@
 
 ### Variable Device Series Group
 
+- We started by visualizing the distributions of device series group among potential and non potential customers. We approached this task by creating two pie charts:
+
+![image](https://github.com/akannan05/ges24/assets/70667502/fe3ff3be-49e5-41ee-a1da-52b1ca3a08dc)
+![image](https://github.com/akannan05/ges24/assets/70667502/03902c65-84a4-4c31-9df1-46069cef663e)
+
+
+- We then created a grouped barplot to visualize distribution differences more easily
+
+![image](https://github.com/akannan05/ges24/assets/70667502/a8a1c162-ba00-4f22-bf7e-3b68398a2621)
+
+- These plots do not indicate any key differences in distributions of device series groups among potential and non potential customers.
+
 
 
 ### Variable Device EMUI
+
+- We started by visualizing the distributions of device EMUI's among potential and non potential customers. We approached this task by creating two pie charts:
+
+![image](https://github.com/akannan05/ges24/assets/70667502/294a683b-434e-4c1a-95c0-7257a680af3d)
+![image](https://github.com/akannan05/ges24/assets/70667502/1912133f-ca3f-4a03-8ad6-64683c57bdea)
+
+
+- We then created a grouped barplot to visualize distribution differences more easily
+
+![image](https://github.com/akannan05/ges24/assets/70667502/ffc16a3c-c99b-4c34-beb1-ddaf14b9c598)
+
+
+- These plots do not indicate any key differences in distributions of device series EMUI's among potential and non potential customers.
 
 
 
 ### Variable Advertisement Hour Viewed
 
+- We first created two pie charts to visualize the distribution of the hour at which ads were viewed among potential and non potential customers.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/447d6efa-4da0-409a-b0f6-8fa7ff814989)
+![image](https://github.com/akannan05/ges24/assets/70667502/39634966-ec9a-409b-be64-69fbdcf9d154)
+
+- We then used a grouped barplot to easily visualize the differences between the two distributions.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/24c929ea-2e82-45a9-99a9-3ea47e6c68b4)
+
+
+- These plots do not indicate any key differences in distributions of ad hour viewed among potential and non potential customers.
+
 
 
 ### Variable Feed Hour Viewed
+
+- We first created two pie charts to visualize the distribution of the hour at which feeds were viewed among potential and non potential customers.
+
+
+
+- We then used a grouped barplot to easily visualize the differences between the two distributions.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/24c929ea-2e82-45a9-99a9-3ea47e6c68b4)
+
+
+- These plots do not indicate any key differences in distributions of feed hour viewed among potential and non potential customers.
 
 
 ### Variable Advertisement Day Viewed
