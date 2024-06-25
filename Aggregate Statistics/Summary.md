@@ -62,6 +62,39 @@
 ### Variable Device Series
 
 
+- We started by visualizing the distributions of device series among potential and non potential customers. We approached this task by creating two pie charts:
+
+![image](https://github.com/akannan05/ges24/assets/70667502/46d3ad9e-ab64-4af3-942b-c2483e3b5c84)
+![image](https://github.com/akannan05/ges24/assets/70667502/c1c7719e-88b6-42ef-b939-307abfafda94)
+
+- We then created a grouped barplot to visualize distribution differences more easily
+
+![image](https://github.com/akannan05/ges24/assets/70667502/dd00ab29-ba05-40b5-acff-df95897c9a8c)
+
+- These plots do not indicate any key differences in distributions of device series among potential and non potential customers.
+
+
+### Variable Device Series Group
+
+
+
+### Variable Device EMUI
+
+
+
+### Variable Advertisement Hour Viewed
+
+
+
+### Variable Feed Hour Viewed
+
+
+### Variable Advertisement Day Viewed
+
+
+
+### Variable Feed Day Viewed
+
 
 
 
