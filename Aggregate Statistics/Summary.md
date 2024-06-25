@@ -172,6 +172,56 @@
 - The plots show no clear differences in distributions of ad day viewed among potential and non potential customers, except for the fact that potential customers tend to view feeds more on Wednesday compared to non-potential customers.
 
 
+### Variable Article Likes
 
+- We first created two pie charts to visualize the distribution of articles liked among potential and non potential customers.
+  
+![image](https://github.com/akannan05/ges24/assets/70667502/fac3faea-03de-471f-9053-30da5ffa3690)
+![image](https://github.com/akannan05/ges24/assets/70667502/072abb08-f749-4bba-8023-ab10a1f9c3c5)
+
+
+
+- We then used a grouped barplot to see the differences between distributions.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/622206e8-7e9d-4174-9fb0-f8ac7565c3b8)
+
+
+
+- The plots show no clear differences in distributions of articles liked among viewed among potential and non potential customers.
+
+
+### Variable Article Dislikes
+
+- We first created two pie charts to visualize the distribution of articles disliked among potential and non potential customers.
+  
+![image](https://github.com/akannan05/ges24/assets/70667502/d8f94c65-b88e-4f5e-a58e-b6fc74743693)
+![image](https://github.com/akannan05/ges24/assets/70667502/69dbc83f-4d67-4f5a-a20f-5b4df1fb2a9a)
+
+
+- We then used a grouped barplot to see the differences between distributions.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/57db2611-9f44-497b-8283-3cf0f1004cc7)
+
+
+
+- The plots show no clear differences in distributions of articles disliked among viewed among potential and non potential customers.
+
+
+### Variable Article Progress
+
+- We first created two pie charts to visualize the distribution of article progress among potential and non potential customers.
+  
+![image](https://github.com/akannan05/ges24/assets/70667502/5dbcaf9a-4ac6-4a86-ab2b-3337b98ff313)
+![image](https://github.com/akannan05/ges24/assets/70667502/cbfc5606-2c03-4978-bf67-4d207fb9903c)
+
+
+
+- We then used a grouped barplot to see the differences between distributions.
+
+![image](https://github.com/akannan05/ges24/assets/70667502/63aeb8da-7ca1-4eab-8f3b-35d7d46cb784)
+
+
+
+- The plots show that potential customers clearly tend to progress further through the articles than non-potential customers.
 
 
