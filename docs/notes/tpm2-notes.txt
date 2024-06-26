@@ -1,0 +1,9 @@
+From https://tpm2-software.github.io/2020/06/12/Remote-Attestation-With-tpm2-tools.html#introduction
+
+Attestation:
+    - goal of attestation is to certify something
+    - 2 parts:
+        - attestor identity -- ensuring that the user 'attesting' is known and is trusted
+        - attestation integrity -- the process to generate the info and the process to 
+          protect the info need to be trusted
+    
