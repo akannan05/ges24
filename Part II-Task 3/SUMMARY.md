@@ -8,6 +8,6 @@
 
 - After the synthetic data was generated we plotted histograms of each variable in the original and synthetic dataframes respectively to assess if there were any distributional differences and to see whether or not the fake data distributions mapped the real data distributions.
 
-  
+Generated Data (1) vs. Real Data (2):
 ![image](https://github.com/akannan05/ges24/assets/70667502/9731f80c-1e2f-4e48-929f-2f82092cee03)![Real Histograms](https://github.com/akannan05/ges24/assets/70667502/1e8c7c3d-4479-4b8e-a1ba-a1b9d5ae6e25)
 
