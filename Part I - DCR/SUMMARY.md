@@ -1,4 +1,4 @@
-# Part I: Data Clean Room, Privacy Preservation
+# Task I: Data Clean Room, Privacy Preservation
 
 Overview of Virtual Machine configuration:
 
