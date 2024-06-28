@@ -30,6 +30,6 @@ After we completed the dataset balancing, we retrained the random forest model u
 
 After this, we plotted the Gini Importances of the features, and determined that the feature with the most predictive power was the article progress (same observation was made in Aggregate Statistics!)
 
-![Alt text](image-7.png)
+![Alt text](img/Balanced%20Random%20Forest%20Feature%20Importance%20Plot.png)
 
 
