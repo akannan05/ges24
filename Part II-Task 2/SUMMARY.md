@@ -10,6 +10,10 @@
 - After the feature engineering was completed, we started by training a random forest model. A random forest model in essence is an ensemble of decision trees which makes predictions via a majority vote of the decision trees. We thought this would be a good model because the decision trees would be good because it would use a human-like decision making process to find solutions.
 - The first model we trained was fairly successful but we had a large number of false negatives. Meaning that we predicted that an individual would not be a customer when they indeed would. The precision for this model was 1, while the recall was 0.87, and the AUC was 0.97. We suspected that this low recall was due to the fact that it was an imbalanced dataset (far more non-customers than customers). To mitigate this we tried to build a balanced dataset.
 
+![Alt text](image.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
 
 
 ## Optimization through Balancing
@@ -20,3 +24,13 @@
 
 
 ![Model Accuracy](img/Balanced%20Random%20Forest%20Classification%20Report.png) ![Model Confusion](img/Random%20Forest%20Non-Balanced%20Confusion%20Matrix.png)
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+
+
+- After this, we plotted the Gini Importances of the features, and determined that the feature with the most predictive power was the article progress (same observation was made in Aggregate Statistics!)
+
+
+![Alt text](image-7.png)
+
+
