@@ -83,7 +83,7 @@ az login
 
 Ensure that we only allow selected networks to access the Key Vault for an additional layer of security. We select the virtual network corresponding to our VM as the network that is allowed to access the key vault. 
 
-After setting up the key value server in Azure, we also want to add certain users as "Key Value 
+After setting up the key value server in Azure, we also want to add certain users as "Key Value Adminstrators" so that they have permission to not only access the Keys within the Key Vault but also add Keys there.
 
 ### TPM Coding for Remote Key Attestation
 
@@ -125,7 +125,23 @@ tpm2_createak \
 
 ### Step 2: Send AK to Key Vault
 
-At this step, the user will run the script [SendAK.sh](https://github.com/akannan05/ges24/blob/main/Part%20I%20-%20DCR/src/SendAK.sh) which will save the public attestation key (rsa_ak.pub) into the Key Vault server for further usage
+At this step, the user will run the script [SendAK.sh](https://github.com/akannan05/ges24/blob/main/Part%20I%20-%20DCR/src/SendAK.sh) which will save the public attestation key (rsa_ak.pub) into the Key Vault server for further usage.
+
+If we installed Azure CLI we can check that this key has successfully been sent by using the command:
+
+```sh
+
+```
+
+If not, through the Azure Portal, we can go to the Key Vault Server and see that the secret has been securely sent to the server
+
+![Secret in Key Vault](img/secret-vault.png)
+
+### Step 3: Generate and Extend Quote (PCR23)
+
+At this step, the user will run the script [QuoteGeneration.sh](https://github.com/akannan05/ges24/blob/main/Part%20I%20-%20DCR/src/QuoteGeneration.sh) which will 
+
+Note that the user must switch to the root user in order for this script to work (it checks for this at the beginning of the script, so users won't be able to run it without switching first).
 
 
 
