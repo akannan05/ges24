@@ -5,19 +5,19 @@
 <table>
   <tr>
     <td style="padding: 0 35px;">
-      <img src="image1.png" alt="Animesh" style="width: 100%;">
+      <img src="assets/image1.png" alt="Animesh" style="width: 100%;">
       <p align="center">Animesh</p>
     </td>
     <td style="padding: 0 35px;">
-      <img src="image4.png" alt="Anirudh" style="width: 100%;">
+      <img src="assets/image4.png" alt="Anirudh" style="width: 100%;">
       <p align="center">Anirudh</p>
     </td>
     <td style="padding: 0 35px;">
-        <img src="image2.png" alt="Brandon" style="width: 100%;">
+        <img src="assets/image2.png" alt="Brandon" style="width: 100%;">
       <p align="center">Brandon</p>
     </td>
     <td style="padding: 0 35px;">
-      <img src="image3.png" alt="Eli" style="width: 100%;">
+      <img src="assets/image3.png" alt="Eli" style="width: 100%;">
       <p align="center">Eli</p>
     </td>
   </tr>
