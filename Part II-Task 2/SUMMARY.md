@@ -17,16 +17,19 @@ The first model we trained was fairly successful but we had a large number of fa
 
 ![First Confusion](img/Random%20Forest%20Non-Balanced%20Confusion%20Matrix.png)
 
-![First Confusion]
-
 ## Optimization through Balancing
 
 To balance the dataset, we decided to add synthetic samples of potential customers to get the same number of potential customers and non customers. We did the balancing of the dataset via oversampling (adding observations to the minority class)
 
 After we completed the dataset balancing, we retrained the random forest model using 100 trees. This model was almost perfect, as it had a precision of 1.0, recall of 1.0 and AUC of 1.0. 
 
-
-
 ![Model Accuracy](img/Balanced%20Random%20Forest%20Classification%20Report.png) 
 
 ![Model Confusion](img/Balanced%20Random%20Forest%20Confusion%20Matrix.png)
+
+
+After this, we plotted the Gini Importances of the features, and determined that the feature with the most predictive power was the article progress (same observation was made in Aggregate Statistics!)
+
+![Alt text](image-7.png)
+
+
