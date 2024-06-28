@@ -27,7 +27,7 @@
 
 ## Data Clean Room
 
-The full source code and summary is here: [Data Clean Room Task](https://github.com/akannan05/ges24)
+The full source code and summary is here: [Data Clean Room Task]([https://github.com/akannan05/ges24](https://github.com/akannan05/ges24/blob/main/Part%20I%20-%20DCR/SUMMARY.md))
 
 We simply followed the instructions given in the prompt release as well as the TPM coding handout. 
 
