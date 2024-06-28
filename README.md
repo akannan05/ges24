@@ -37,7 +37,7 @@ Our general structure was to use a Azure Virtual Machine with the Intel SGX capa
 
 ## Aggregate Statistics
 
-The full visualizations and data analysis report is here: [Aggregate Statistics Task](https://github.com/akannan05/ges24)
+The full visualizations and data analysis report is here: [Aggregate Statistics Task](https://github.com/akannan05/ges24/blob/main/Part%20II-Task%201/SUMMARY.md)
 
 After merging and preprocessing the data, we used Pandas and Plotly to visualize the distributions and make statistical inferences. In addition to the given prompts, we also analyzed:
 - jhlkj
@@ -45,8 +45,8 @@ After merging and preprocessing the data, we used Pandas and Plotly to visualize
 
 ## Predictive Model
 
-The full source code and summary is here: [Predictive Modelling Task](https://github.com/akannan05/ges24)
+The full source code and summary is here: [Predictive Modelling Task](https://github.com/akannan05/ges24/blob/main/Part%20II-Task%202/SUMMARY.md)
 
 ## Generative Model
 
-The full source code and summary is here: [Generative Modelling Task](https://github.com/akannan05/ges24)
+The full source code and summary is here: [Generative Modelling Task](https://github.com/akannan05/ges24/blob/main/Part%20II-Task%203/SUMMARY.md)
