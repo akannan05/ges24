@@ -2,7 +2,7 @@
 
 ## Team Mercury Codes
 
-<table>
+<table align="center"> 
   <tr>
     <td style="padding: 0 35px;">
       <img src="assets/image1.png" alt="Animesh" style="width: 100%;">
