@@ -54,3 +54,11 @@ The full source code and summary is here: [Predictive Modelling Task](https://gi
 ## Generative Model
 
 The full source code and summary is here: [Generative Modelling Task](https://github.com/akannan05/ges24/blob/main/Part%20II-Task%203/SUMMARY.md)
+
+# Sources Used Throughout Development
+
+[TPM Coding Tutorial](https://gist.github.com/kenplusplus/f025d04047bc044e139d105b4c708d78)
+[Remote Attestation Tutorial](https://tpm2-software.github.io/2020/06/12/Remote-Attestation-With-tpm2-tools.html#service-request-part-1-platform-anonymous-identity-validation)
+[Prompt Release Slides](https://docs.google.com/presentation/d/1Pf6I7JC-Pce-BruFViCTFrmgZMRAsNFiHk6ZvPUH4Yw/edit#slide=id.g2e02acbdd07_0_5)
+[CTGan Documentation](https://github.com/sdv-dev/CTGAN)
+
