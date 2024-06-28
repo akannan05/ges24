@@ -130,7 +130,7 @@ At this step, the user will run the script [SendAK.sh](https://github.com/akanna
 If we installed Azure CLI we can check that this key has successfully been sent by using the command:
 
 ```sh
-
+az keyvault secret show --vault-name $KEY_VAULT_NAME --name $SECRET_NAME
 ```
 
 If not, through the Azure Portal, we can go to the Key Vault Server and see that the secret has been securely sent to the server
