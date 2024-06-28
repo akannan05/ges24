@@ -1,5 +1,12 @@
 # Task I: Data Clean Room, Privacy Preservation
 
+## Table of Contents
+[Data Clean Room Setup](#data-clean-room)
+
+[TPM Coding + Remote Key Attestation](#tpm-coding-for-remote-key-attestation)
+
+[Code/Scripts Overview](#codescripts-overview)
+
 Overview of Virtual Machine configuration:
 
 ![Overview](./img/overview.png)
@@ -40,6 +47,7 @@ sudo apt-get update
 ```sh
 sudo apt-get upgrade
 ```
+*As a side note, these two commands solved a majority of the errors and bugs we ran into during development*
 
 Then, we install dependencies with the following command:
 ```sh
@@ -61,11 +69,21 @@ For SGX setup we install the following packages
 sudo apt install sgx-dcap-pcss sgx-pck-id-retrieval-tool
 ```
 
+Optional: can also install Azure CLI for a more streamlined workflow during this process. (Everything that needs to be done on the Azure CLI can also be done on the Azure portal)
+
+```sh
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+az login
+```
+
 ### Setup Key Value Server in Microsoft Azure
 
 ![Key Value Configuration](./img/key-vault-config.png)
 
 Ensure that we only allow selected networks to access the Key Vault for an additional layer of security. We select the virtual network corresponding to our VM as the network that is allowed to access the key vault. 
+
+After setting up the key value server in Azure, we also want to add certain users as "Key Value 
 
 ### TPM Coding for Remote Key Attestation
 
@@ -80,3 +98,6 @@ Evidence is the data that is generated within the TEE that describe its current 
 The agent (a software component inside the TEE), will send this evidence to the Remote Key Vault, to initiate the process of requesting a key. 
 
 Inside the Key Vault, the server will send the evidence to the Attestation Server to verify that it is authentic. After it has been authenticated, the attestation server sends the key back to the virtual machine. 
+
+## Code/Scripts Overview
+
