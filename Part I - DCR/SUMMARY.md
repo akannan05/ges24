@@ -65,6 +65,8 @@ sudo apt install sgx-dcap-pcss sgx-pck-id-retrieval-tool
 
 ![Key Value Configuration](./img/key-vault-config.png)
 
+Ensure that we only allow selected networks to access the Key Vault for an additional layer of security. We select the virtual network corresponding to our VM as the network that is allowed to access the key vault. 
+
 ### TPM Coding for Remote Key Attestation
 
 For TPM Coding we follow the instructions given in the tutorial: [Tutorial](https://gist.github.com/kenplusplus/f025d04047bc044e139d105b4c708d78)
@@ -75,4 +77,6 @@ The general workflow of the Remote Key Attestation process is as shown below:
 
 Evidence is the data that is generated within the TEE that describe its current state. The evidence proves that the data within the TEE is secure and has not been tampered. Typically includes hashes, and other software configurations. 
 
-The agent (a software component inside the TEE), will send this evidence to the Remote Key Vault 
+The agent (a software component inside the TEE), will send this evidence to the Remote Key Vault, to initiate the process of requesting a key. 
+
+Inside the Key Vault, the server will send the evidence to the Attestation Server to verify that it is authentic. After it has been authenticated, the attestation server sends the key back to the virtual machine. 

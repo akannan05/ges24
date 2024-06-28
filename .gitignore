@@ -1,8 +1,8 @@
 data/train.bin
 data/decrypted_file/train/train_data_feeds.csv
 data/decrypted_file/train/train_data_ads.csv
-.gitignore
-docs/tex-dump
 data/mercuryVM.ppk
 data/mercuryVM2.ppk
 data/gesVM.ppl
+.gitignore
+docs/tex-dump
