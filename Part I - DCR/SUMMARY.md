@@ -101,3 +101,31 @@ Inside the Key Vault, the server will send the evidence to the Attestation Serve
 
 ## Code/Scripts Overview
 
+### Step 1: Get Evidence 
+
+First create the endorsement key to initialize the TPM
+
+```sh
+tpm2_createek --ek-context rsa_ek.ctx --key-algorithm rsa --public rsa_ek.pub
+```
+
+Then, create the Attestation Key, which we will next send to the Key Vault that we have prepared
+
+```sh
+tpm2_createak \
+   --ek-context rsa_ek.ctx \
+   --ak-context rsa_ak.ctx \
+   --key-algorithm rsa \
+   --hash-algorithm sha256 \
+   --signing-algorithm rsassa \
+   --public rsa_ak.pub \
+   --private rsa_ak.priv \
+   --ak-name rsa_ak.name
+```
+
+### Step 2: Send AK to Key Vault
+
+At this step, the user will run the script [SendAK.sh](https://github.com/akannan05/ges24/blob/main/Part%20I%20-%20DCR/src/SendAK.sh) which will save the public attestation key (rsa_ak.pub) into the Key Vault server for further usage
+
+
+
