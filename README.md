@@ -23,100 +23,62 @@
   </tr>
 </table>
 
-# Part I: Data Clean Room, Privacy Preservation
+# Our General Approach 
 
 ## Data Clean Room
 
-DCR's involve two parties and their purpose is to allow for a secure environment for data analysis and processing, keeping private information from being leaked. DCRs mitigate privacy risks and ensure that data stays encrypted within it. 
+The full source code and summary is here: [Data Clean Room Task](https://github.com/akannan05/ges24)
 
-The task in this hackathon is to create a Trusted Execution Environment where we can run the code on the datasets for the two parties. Specifically in this project we will be using a Microsoft Azure VM, with 
+We simply followed the instructions given in the prompt release as well as the TPM coding handout. 
 
-### Setup Configuration of Azure Virtual Machine for Trusted Execution Environment:
+We chose to use the Intel SGX (Software Guard Extensions), which prove hardware-level protection against privacy risks. While we were considering using some software solutions, such as Docker, we came to the conclusion that hardware protections would suffice. 
 
-After making a Microsoft Azure account, we create a VM with the following configuration:
+Our general structure was to use a Azure Virtual Machine with the Intel SGX capability. Then we have a separate resource called a Key Vault to save the public key's AK (Attestation Key). 
 
-![Main Security Configuration](./Part%20I%20-%20DCR/img/security-config.png)
+## Aggregate Statistics
 
-*Ensure that "Trusted Launch Virtual Machines" is selected for security type, and use any linux distribution for the image.*
+The full visualizations and data analysis report is here: [Aggregate Statistics Task](https://github.com/akannan05/ges24)
 
-![Size Configuration](./Part%20I%20-%20DCR/img/vm-size-config.png)
+After merging and preprocessing the data, we used Pandas and Plotly to visualize the distributions and make statistical inferences. In addition to the given prompts, we also analyzed:
+- jhlkj
+- klkjkl
 
-*Pick a size that works for the specifications for the task. Typically, any DC-family size (DCasv, DCesv, DCsv, etc.) will work*
+## Predictive Model
 
-![SSH Configuration](./Part%20I%20-%20DCR/img/ssh-config.png)
+The full source code and summary is here: [Predictive Modelling Task](https://github.com/akannan05/ges24)
 
-*We chose to use *
+## Generative Model
 
-### Install and Setup SGX + Other Dependencies
+The full source code and summary is here: [Generative Modelling Task](https://github.com/akannan05/ges24)
 
-
-
-### Setup Key Value Server in Microsoft Azure
-
-### TPM Coding for Remote Key Attestation
-
-The general workflow of the Remote Key Attestation process is as shown below:
-
-![TPM Attestation](./Part%20I%20-%20DCR/img/tpm-attest.png)
-
-## Utilization
-
-Here we run the code (which will be shown in Part 2) on both of our datasets to compare the results from running it in the TEE environment, and without any security.
-
-### Predictive Model in TEE:
-
-### Generative Model in TEE:
-
-# Part 2: Generative and Predictive Modelling
-
-## Aggregate Statistics for Original Data
-
-### Potential Customers vs. Non Potential Customers
+# Task 1: Aggregate Statistics
 
 Here we define potential customers as users who clicked on ads, and non potential customers as users who did not click on ads.
 
-We start by visualizing the age distribution with two separate pie charts, for comparison.
+## Age Distribution
 
-<table>
-  <tr>
-    <td style="padding: 0 35px;">
-      <img src="Part II-Task 1\age-potential.png" alt="Animesh" style="width: 100%;">
-      <p align="center">Animesh</p>
-    </td>
-    <td style="padding: 0 35px;">
-      <img src="image4.png" alt="Anirudh" style="width: 100%;">
-      <p align="center">Anirudh</p>
-    </td>
-  </tr>
-</table>
+We start by visualizing the age distribution with two separate pie charts.
 
-![image](https://github.com/akannan05/ges24/assets/70667502/147f38d1-aaff-4660-977d-f24592536d56)
-![image](https://github.com/akannan05/ges24/assets/70667502/c1880480-0de6-415f-b22f-f481626d0879)
+![Age Potential](./Part%20II-Task%201/img/Potential%20Customer%20Age%20Distribution.png)
+![Age Non Potential](./Part%20II-Task%201/img/Non-Potential%20Customer%20Age%20Distribution.png)
 
-- After this, we plotted a grouped barplot showing the distributions side by side for easy comparison.
+Interestingly, there's seem to be no major differences in the age distribution. We confirm this by comparing the distributions through a histogram. 
 
-![image](https://github.com/akannan05/ges24/assets/70667502/d7d58b96-6734-4541-b2c7-e5fdac16125f)
+![Grouped Barchart](./Part%20II-Task%201/img/Stacked%20Age%20Barplot%20(2).png)
 
-- These plots show that there does not seem to be a noticeable difference in age distributions among potential and non customers.
+## Gender Distribution
 
-### Variable Gender:
+We then visualize the gender distribution between potential and non-potential customers using pie charts and grouped barcharts.
 
+![image](./Part%20II-Task%201/img/Non%20Customer%20Gender%20Dist.png)
 
-- We started by visualizing the gender distribution with two separate pie charts. One for potential customers, and one for non-potential customers.
+![image](./Part%20II-Task%201/img/Gender%20Grouped%20Barchart.png)
 
-![image](https://github.com/akannan05/ges24/assets/70667502/f72d0689-7983-41bb-860a-00784b577476)
-![image](https://github.com/akannan05/ges24/assets/70667502/70d805f7-4da8-4bea-a392-72be4dd73ec9)
+These plots show that there does not seem to be a noticeable difference in gender distribution among potential and non customers.
 
+## Variable Residence
 
-- After this, we plotted a grouped barplot showing the distributions side by side for easy comparison.
-
-![image](https://github.com/akannan05/ges24/assets/70667502/9bf72895-b8f6-4108-9f8d-a82854422cb0)
-
-- These plots show that there does not seem to be a noticeable difference in gender distribution among potential and non customers.
-
-### Variable Residence
-
-- We started by visualizing the distribution of residence provinces among potential and non potential customers. We approached this with two pie charts:
+We then visualize the distribution of residence provinces among potential and non potential customers. We approached this with two pie charts:
 
 ![image](https://github.com/akannan05/ges24/assets/70667502/651caca2-faf7-432b-b628-9ca6847457ea)
 
@@ -129,7 +91,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - These plots do not indicate any clear differences in distribution of residential provinces between potential and non potential customers.
 
 
-### Variable Content Preference
+## Variable Content Preference
 
 - We started by visualizing the distributions of content preference among potential and non potential customers. We approached this task by creating two pie charts:
 
@@ -143,7 +105,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - These plots show that potential customers seem to prefer content labeled 0 while non potential customers seem to prefer content labeled 1. Therefore, it may be wise to display more content labeled 0 as opposed to 1 in order to attract more customers.
 
 
-### Variable Device Series
+## Variable Device Series
 
 
 - We started by visualizing the distributions of device series among potential and non potential customers. We approached this task by creating two pie charts:
@@ -159,7 +121,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - These plots do not indicate any key differences in distributions of device series among potential and non potential customers.
 
 
-### Variable Device Series Group
+## Variable Device Series Group
 
 - We started by visualizing the distributions of device series group among potential and non potential customers. We approached this task by creating two pie charts:
 
@@ -175,7 +137,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 
 
 
-### Variable Device EMUI
+## Variable Device EMUI
 
 - We started by visualizing the distributions of device EMUI's among potential and non potential customers. We approached this task by creating two pie charts:
 
@@ -192,7 +154,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 
 
 
-### Variable Advertisement Hour Viewed
+## Variable Advertisement Hour Viewed
 
 - We first created two pie charts to visualize the distribution of the hour at which ads were viewed among potential and non potential customers.
 
@@ -208,7 +170,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 
 
 
-### Variable Feed Hour Viewed
+## Variable Feed Hour Viewed
 
 - We first created two pie charts to visualize the distribution of the hour at which feeds were viewed among potential and non potential customers.
 
@@ -226,7 +188,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - These plots show the distributions are fairly similar. There are some key takeaways from these visualizations though. THe 22nd hour of the day seems to be the most popular for viewing feeds seems to be the 22nd hour. Also, potential customers are more likely to view their feeds during the 19th hour as opposed to non-potential customers.
 
 
-### Variable Advertisement Day Viewed
+## Variable Advertisement Day Viewed
 
 - We first created two pie charts to visualize the distribution of the day at which ads were viewed among potential and non potential customers.
 
@@ -240,7 +202,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - The plots show no clear differences in distributions of ad day viewed among potential and non potential customers. We can see that most ads are viewed during the weekend (Friday-Sunday) with a majority being viewed on Friday.
 
 
-### Variable Feed Day Viewed
+## Variable Feed Day Viewed
 
 - We first created two pie charts to visualize the distribution of the day at which feeds were viewed among potential and non potential customers.
   
@@ -256,7 +218,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - The plots show no clear differences in distributions of ad day viewed among potential and non potential customers, except for the fact that potential customers tend to view feeds more on Wednesday compared to non-potential customers.
 
 
-### Variable Article Likes
+## Variable Article Likes
 
 - We first created two pie charts to visualize the distribution of articles liked among potential and non potential customers.
   
@@ -274,7 +236,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - The plots show no clear differences in distributions of articles liked among viewed among potential and non potential customers.
 
 
-### Variable Article Dislikes
+## Variable Article Dislikes
 
 - We first created two pie charts to visualize the distribution of articles disliked among potential and non potential customers.
   
@@ -291,7 +253,7 @@ We start by visualizing the age distribution with two separate pie charts, for c
 - The plots show no clear differences in distributions of articles disliked among viewed among potential and non potential customers.
 
 
-### Variable Article Progress
+## Variable Article Progress
 
 - We first created two pie charts to visualize the distribution of article progress among potential and non potential customers.
   
