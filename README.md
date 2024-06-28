@@ -42,8 +42,10 @@ Our general structure was to use a Azure Virtual Machine with the Intel SGX capa
 The full visualizations and data analysis report is here: [Aggregate Statistics Task](https://github.com/akannan05/ges24/blob/main/Part%20II-Task%201/SUMMARY.md)
 
 After merging and preprocessing the data, we used Pandas and Plotly to visualize the distributions and make statistical inferences. In addition to the given prompts, we also analyzed:
-- jhlkj
-- klkjkl
+- User Likes and Dislikes
+- Progress In Article
+
+From the statistical analysis, our conclusion was that the most important attribute that differentiates Potential Customers vs. Non Potential Customers is how far they get through the article that the ad is shown on. That is, users who spend more time scrolling through the article are more likely to click on the ad, and users who spend less time scrolling through the article are less likely to click on the ad.
 
 ## Predictive Model
 
